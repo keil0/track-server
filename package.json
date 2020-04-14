@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "tunnel": "ngrok http 3000"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "nodemon": "^2.0.3"
   },
   "devDependencies": {
+    "ngrok": "^3.2.7",
     "prettier": "2.0.4"
   }
 }
